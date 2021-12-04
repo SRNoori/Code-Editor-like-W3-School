@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Code Editor Project</title>
+	<meta name="description" content="Online JavaScript Compiler">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="editor-menu">
+		<button class="btn btn-dark">Dark Mode</button>
+		<button class="btn btn-light">Light Mode</button>
+		<button class="btn btn-run"><i class="fa fa-play"></i>&nbsp;Run</button>
+		<div class="live">
+			<label for="live">Live-</label>
+			<input type="checkbox" id="live">
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="left">
+			<div class="editor" contenteditable="">
+				Write code here...
+			</div>
+		</div>
+		<div class="bar" title="Click and Drag"></div>
+		<div class="right">
+			<iframe src="" frameborder="0" class="iframe"></iframe>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
